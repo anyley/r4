@@ -1,0 +1,28 @@
+.title_edit {
+	width: 15em;
+	display: block;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: verdana, arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+	line-height: 1.2em;
+	height: 1.2em;
+}
+
+.title_show {
+	width: 15em;
+	display: block;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: verdana, arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+	line-height: 1.2em;
+	height: 1.2em;
+    border: 2px solid white;
+
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}

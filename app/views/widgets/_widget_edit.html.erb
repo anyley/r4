@@ -1,0 +1,9 @@
+<%= form_tag change_title_path, id: 'title_form', remote: true do %>
+	<%= text_field_tag :title,
+					   session[:title],
+					   class: 'title_edit',
+					   placeholder: 'Enter title...' %>
+<% end %>
+
+<%= button_to 'cancel', show_title_path, remote: true, method: :get %>
+<%= button_tag 'save', onclick: "$('#title_form').submit()" %>

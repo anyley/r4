@@ -1,0 +1,15 @@
+<div id="title">
+  <%= render 'widget_show' %>
+</div>
+
+Form for:
+<%= form_for @obj, remote: true do |f| %>
+  <div class="field">
+    <%= f.label :title, 'Title' %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Cancel' %>
+    <%= f.submit 'Change' %>
+  </div>
+<% end %>
